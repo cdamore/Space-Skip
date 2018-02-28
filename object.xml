@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<game GSCVersion="0.10.5" PGFVersion="0.19" title="My Great Project">
+  <tags />
+  <resolutionIndependence>0</resolutionIndependence>
+  <instructions>Add game instructions here.</instructions>
+  <resolution>1</resolution>
+  <longDescription>A simple game.</longDescription>
+  <prototypes>
+    <actor id="id892474" />
+    <actor id="id831345" />
+    <actor id="id664696" />
+    <actor id="id293989" />
+    <actor id="id202170" />
+    <actor id="id950681" />
+    <actor id="id732464" />
+    <actor id="id480494" />
+    <actor id="id676564" />
+    <actor id="id255518" />
+    <actor id="id139041" />
+    <actor id="id994164" />
+    <actor id="id671233" />
+    <actor id="id893339" />
+    <actor id="id619524" />
+    <actor id="id259323" />
+    <actor id="id343492" />
+    <actor id="id395032" />
+    <actor id="id637778" />
+    <actor id="id798538" />
+    <actor id="id642329" />
+    <actor id="id437637" />
+    <actor id="id134686" />
+    <actor id="id132054" />
+    <actor id="id180163" />
+    <actor id="id668672" />
+    <actor id="id799681" />
+    <actor id="id631533" />
+    <actor id="id939590" />
+    <actor id="id136740" />
+    <actor id="id844425" />
+    <actor id="id296446" />
+    <actor id="id944373" />
+    <actor id="id864506" />
+    <actor id="id648867" />
+    <actor id="id147084" />
+    <actor id="id833170" />
+    <actor id="id427507" />
+    <actor id="id649298" />
+    <actor id="id784955" />
+    <actor id="id896876" />
+    <actor id="id285773" />
+    <actor id="id846547" />
+    <actor id="id331034" />
+    <actor id="id123090" />
+    <actor id="id161913" />
+    <actor id="id411269" />
+    <actor id="id199446" />
+    <actor id="id309653" />
+    <actor id="id224659" />
+    <actor id="id671843" />
+    <actor id="id788653" />
+    <actor id="id150754" />
+    <actor id="id355084" />
+    <actor id="id474852" />
+    <actor id="id713731" />
+    <actor id="id612994" />
+    <actor id="id258140" />
+    <actor id="id652845" />
+    <actor id="id210602" />
+    <actor id="id800558" />
+    <actor id="id160688" />
+    <actor id="id591251" />
+    <actor id="id714372" />
+    <actor id="id954290" />
+    <actor id="id660157" />
+    <actor id="id905139" />
+    <actor id="id170903" />
+    <actor id="id264025" />
+    <actor id="id512036" />
+    <actor id="id977530" />
+    <actor id="id473668" />
+    <actor id="id104392" />
+    <actor id="id772109" />
+    <actor id="id399375" />
+    <actor id="id605965" />
+    <actor id="id555776" />
+    <actor id="id442251" />
+    <actor id="id425727" />
+    <actor id="id414062" />
+    <actor id="id363976" />
+    <actor id="id586347" />
+    <actor id="id967047" />
+    <actor id="id509339" />
+  </prototypes>
+  <plugins />
+  <scenes>
+    <scene id="id214359" />
+    <scene id="id755373" />
+    <scene id="id913212" />
+    <scene id="id379752" />
+    <scene id="id337519" />
+    <scene id="id575707" />
+    <scene id="id201679" />
+    <scene id="id745798" />
+    <scene id="id838922" />
+  </scenes>
+  <attributes>
+    <text id="name">default name</text>
+    <real id="time">0</real>
+    <size id="displaySize">
+      <real id="width">320</real>
+      <real id="height">480</real>
+    </size>
+    <text id="actorTags">All	Blackholes</text>
+    <boolean id="id827412" name="Distroy platform">false</boolean>
+    <boolean id="id923687" name="Destroy Ring">false</boolean>
+    <boolean id="id731702" name="Change Color ">false</boolean>
+    <boolean id="id205820" name="Control Camera">false</boolean>
+    <boolean id="id435579" name="Shrink Blackhole">false</boolean>
+    <boolean id="id199108" name="Destroy Start Platform">false</boolean>
+    <boolean id="id584583" name="Game Over">false</boolean>
+    <boolean id="id314109" name="Only 1 Popup Gameover ">false</boolean>
+    <integer id="id413090" name="Blackhole Scene Switch">1</integer>
+    <boolean id="id631617" name="Play Button Pressed">false</boolean>
+    <boolean id="id779278" name="Game Over Replay Button">false</boolean>
+    <integer id="id128143" name="Score">0</integer>
+    <integer id="id823803" name="Coin Count Score">0</integer>
+    <integer id="id246942" name="Highscore">0</integer>
+    <boolean id="id244664" name="Options Button Pressed">false</boolean>
+    <integer id="id620969" name="Hearts">0</integer>
+    <integer id="id840555" name="Coin Count Total">0</integer>
+    <boolean id="id836939" name="Revive">false</boolean>
+    <integer id="id534400" name="Free Continue">0</integer>
+    <integer id="id616694" name="Revive Cost">1</integer>
+    <boolean id="id800397" name="Revive Good">false</boolean>
+    <boolean id="id301435" name="Touch right">false</boolean>
+    <boolean id="id209370" name="Touch left">false</boolean>
+    <integer id="id815499" name="Sound On/Off">0</integer>
+  </attributes>
+</game>

@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assets PGFVersion="0.19" GSCVersion="0.10.5">
+  <sounds>
+    <sound name="Bounce">
+      <file name="Bounce.ogg" size="4727" />
+    </sound>
+    <sound name="GameOver">
+      <file name="GameOver.ogg" size="12037" />
+    </sound>
+    <sound name="Heart_Count">
+      <file name="Heart_Count.ogg" size="7544" />
+    </sound>
+    <sound name="chime-3-short">
+      <file name="chime-3-short.ogg" size="23607" />
+    </sound>
+    <sound name="Suck-in">
+      <file name="Suck-in.ogg" size="35654" />
+    </sound>
+    <sound name="Suck-out">
+      <file name="Suck-out.ogg" size="35199" />
+    </sound>
+  </sounds>
+  <images>
+    <image name="chopper1">
+      <file name="chopper1.png" size="9287" />
+    </image>
+    <image name="chopper2">
+      <file name="chopper2.png" size="9268" />
+    </image>
+    <image name="chopper3">
+      <file name="chopper3.png" size="9206" />
+    </image>
+    <image name="chopper4">
+      <file name="chopper4.png" size="9125" />
+    </image>
+    <image name="chopper5">
+      <file name="chopper5.png" size="9081" />
+    </image>
+    <image name="chopper6">
+      <file name="chopper6.png" size="9125" />
+    </image>
+    <image name="chopper7">
+      <file name="chopper7.png" size="9125" />
+    </image>
+    <image name="chopper8">
+      <file name="chopper8.png" size="9206" />
+    </image>
+    <image name="chopper9">
+      <file name="chopper9.png" size="9206" />
+    </image>
+    <image name="Blue platform Edited4">
+      <file name="Blue platform Edited4.png" size="3566" />
+    </image>
+    <image name="Bottom Ring">
+      <file name="Bottom Ring.png" size="6807" />
+    </image>
+    <image name="Top Ring">
+      <file name="Top Ring.png" size="6531" />
+    </image>
+    <image name="Large No Planet1 copy_edited-1">
+      <file name="Large No Planet1 copy_edited-1.png" size="408122" />
+    </image>
+    <image name="rainbow plt">
+      <file name="rainbow plt.png" size="26418" />
+    </image>
+    <image name="Aseroid Platform">
+      <file name="Aseroid Platform.png" size="29903" />
+    </image>
+    <image name="Aseroid Long Platform">
+      <file name="Aseroid Long Platform.png" size="30947" />
+    </image>
+    <image name="TUNFR_00000">
+      <file name="TUNFR_00000.png" size="102964" />
+    </image>
+    <image name="TUNFR_00001">
+      <file name="TUNFR_00001.png" size="102964" />
+    </image>
+    <image name="TUNFR_00002">
+      <file name="TUNFR_00002.png" size="100592" />
+    </image>
+    <image name="TUNFR_00003">
+      <file name="TUNFR_00003.png" size="101167" />
+    </image>
+    <image name="TUNFR_00004">
+      <file name="TUNFR_00004.png" size="101167" />
+    </image>
+    <image name="TUNFR_00005">
+      <file name="TUNFR_00005.png" size="102469" />
+    </image>
+    <image name="TUNFR_00006">
+      <file name="TUNFR_00006.png" size="100874" />
+    </image>
+    <image name="TUNFR_00007">
+      <file name="TUNFR_00007.png" size="101217" />
+    </image>
+    <image name="TUNFR_00008">
+      <file name="TUNFR_00008.png" size="101217" />
+    </image>
+    <image name="TUNFR_00009">
+      <file name="TUNFR_00009.png" size="103028" />
+    </image>
+    <image name="TUNFR_00010">
+      <file name="TUNFR_00010.png" size="101901" />
+    </image>
+    <image name="TUNFR_00011">
+      <file name="TUNFR_00011.png" size="101901" />
+    </image>
+    <image name="TUNFR_00012">
+      <file name="TUNFR_00012.png" size="103041" />
+    </image>
+    <image name="TUNFR_00013">
+      <file name="TUNFR_00013.png" size="100556" />
+    </image>
+    <image name="TUNFR_00014">
+      <file name="TUNFR_00014.png" size="96814" />
+    </image>
+    <image name="TUNFR_00015">
+      <file name="TUNFR_00015.png" size="96814" />
+    </image>
+    <image name="TUNFR_00016">
+      <file name="TUNFR_00016.png" size="99172" />
+    </image>
+    <image name="TUNFR_00017">
+      <file name="TUNFR_00017.png" size="100378" />
+    </image>
+    <image name="TUNFR_00018">
+      <file name="TUNFR_00018.png" size="100378" />
+    </image>
+    <image name="TUNFR_00019">
+      <file name="TUNFR_00019.png" size="101542" />
+    </image>
+    <image name="TUNFR_00020">
+      <file name="TUNFR_00020.png" size="102581" />
+    </image>
+    <image name="TUNFR_00021">
+      <file name="TUNFR_00021.png" size="101099" />
+    </image>
+    <image name="TUNFR_00022">
+      <file name="TUNFR_00022.png" size="101099" />
+    </image>
+    <image name="TUNFR_00023">
+      <file name="TUNFR_00023.png" size="99791" />
+    </image>
+    <image name="TUNFR_00024">
+      <file name="TUNFR_00024.png" size="99408" />
+    </image>
+    <image name="TUNFR_00025">
+      <file name="TUNFR_00025.png" size="99408" />
+    </image>
+    <image name="TUNFR_00026">
+      <file name="TUNFR_00026.png" size="100338" />
+    </image>
+    <image name="TUNFR_00027">
+      <file name="TUNFR_00027.png" size="98632" />
+    </image>
+    <image name="TUNFR_00028">
+      <file name="TUNFR_00028.png" size="99063" />
+    </image>
+    <image name="TUNFR_00029">
+      <file name="TUNFR_00029.png" size="99063" />
+    </image>
+    <image name="TUNFR_00030">
+      <file name="TUNFR_00030.png" size="97165" />
+    </image>
+    <image name="TUNFR_00031">
+      <file name="TUNFR_00031.png" size="95143" />
+    </image>
+    <image name="TUNFR_00032">
+      <file name="TUNFR_00032.png" size="95143" />
+    </image>
+    <image name="TUNFR_00033">
+      <file name="TUNFR_00033.png" size="99933" />
+    </image>
+    <image name="TUNFR_00034">
+      <file name="TUNFR_00034.png" size="96091" />
+    </image>
+    <image name="TUNFR_00035">
+      <file name="TUNFR_00035.png" size="96235" />
+    </image>
+    <image name="TUNFR_00036">
+      <file name="TUNFR_00036.png" size="96235" />
+    </image>
+    <image name="TUNFR_00037">
+      <file name="TUNFR_00037.png" size="101004" />
+    </image>
+    <image name="TUNFR_00038">
+      <file name="TUNFR_00038.png" size="98237" />
+    </image>
+    <image name="TUNFR_00039">
+      <file name="TUNFR_00039.png" size="98237" />
+    </image>
+    <image name="TUNFR_00040">
+      <file name="TUNFR_00040.png" size="97175" />
+    </image>
+    <image name="TUNFR_00041">
+      <file name="TUNFR_00041.png" size="96108" />
+    </image>
+    <image name="TUNFR_00042">
+      <file name="TUNFR_00042.png" size="98529" />
+    </image>
+    <image name="TUNFR_00043">
+      <file name="TUNFR_00043.png" size="98529" />
+    </image>
+    <image name="TUNFR_00044">
+      <file name="TUNFR_00044.png" size="97944" />
+    </image>
+    <image name="TUNFR_00045">
+      <file name="TUNFR_00045.png" size="96382" />
+    </image>
+    <image name="TUNFR_00046">
+      <file name="TUNFR_00046.png" size="96382" />
+    </image>
+    <image name="TUNFR_00047">
+      <file name="TUNFR_00047.png" size="95758" />
+    </image>
+    <image name="TUNFR_00048">
+      <file name="TUNFR_00048.png" size="97864" />
+    </image>
+    <image name="TUNFR_00049">
+      <file name="TUNFR_00049.png" size="101363" />
+    </image>
+    <image name="TUNFR_00050">
+      <file name="TUNFR_00050.png" size="101363" />
+    </image>
+    <image name="TUNFR_00051">
+      <file name="TUNFR_00051.png" size="105222" />
+    </image>
+    <image name="TUNFR_00052">
+      <file name="TUNFR_00052.png" size="102861" />
+    </image>
+    <image name="TUNFR_00053">
+      <file name="TUNFR_00053.png" size="102861" />
+    </image>
+    <image name="TUNFR_00054">
+      <file name="TUNFR_00054.png" size="103844" />
+    </image>
+    <image name="TUNFR_00055">
+      <file name="TUNFR_00055.png" size="104931" />
+    </image>
+    <image name="TUNFR_00056">
+      <file name="TUNFR_00056.png" size="106739" />
+    </image>
+    <image name="TUNFR_00057">
+      <file name="TUNFR_00057.png" size="106739" />
+    </image>
+    <image name="TUNFR_00058">
+      <file name="TUNFR_00058.png" size="108183" />
+    </image>
+    <image name="TUNFR_00059">
+      <file name="TUNFR_00059.png" size="107175" />
+    </image>
+    <image name="TUNFR_00060">
+      <file name="TUNFR_00060.png" size="107175" />
+    </image>
+    <image name="TUNFR_00061">
+      <file name="TUNFR_00061.png" size="107246" />
+    </image>
+    <image name="TUNFR_00062">
+      <file name="TUNFR_00062.png" size="107975" />
+    </image>
+    <image name="Shrink 1">
+      <file name="Shrink 1.png" size="28414" />
+    </image>
+    <image name="Shrink 2">
+      <file name="Shrink 2.png" size="30069" />
+    </image>
+    <image name="Shrink 3">
+      <file name="Shrink 3.png" size="29882" />
+    </image>
+    <image name="Shrink 4">
+      <file name="Shrink 4.png" size="29098" />
+    </image>
+    <image name="Shrink 5">
+      <file name="Shrink 5.png" size="28332" />
+    </image>
+    <image name="Shrink 6">
+      <file name="Shrink 6.png" size="27511" />
+    </image>
+    <image name="Shrink 7">
+      <file name="Shrink 7.png" size="26743" />
+    </image>
+    <image name="Shrink 8">
+      <file name="Shrink 8.png" size="25911" />
+    </image>
+    <image name="Shrink 9">
+      <file name="Shrink 9.png" size="25266" />
+    </image>
+    <image name="Shrink 10">
+      <file name="Shrink 10.png" size="24459" />
+    </image>
+    <image name="Shrink 11">
+      <file name="Shrink 11.png" size="23746" />
+    </image>
+    <image name="Shrink 12">
+      <file name="Shrink 12.png" size="23079" />
+    </image>
+    <image name="Shrink 13">
+      <file name="Shrink 13.png" size="22392" />
+    </image>
+    <image name="Shrink 14">
+      <file name="Shrink 14.png" size="21946" />
+    </image>
+    <image name="Shrink 15">
+      <file name="Shrink 15.png" size="21093" />
+    </image>
+    <image name="Shrink 16">
+      <file name="Shrink 16.png" size="20561" />
+    </image>
+    <image name="Shrink 17">
+      <file name="Shrink 17.png" size="20145" />
+    </image>
+    <image name="Shrink 18">
+      <file name="Shrink 18.png" size="19494" />
+    </image>
+    <image name="Shrink 19">
+      <file name="Shrink 19.png" size="19029" />
+    </image>
+    <image name="Shrink 20">
+      <file name="Shrink 20.png" size="18635" />
+    </image>
+    <image name="Shrink 21">
+      <file name="Shrink 21.png" size="18474" />
+    </image>
+    <image name="Black">
+      <file name="Black.png" size="17401" />
+    </image>
+    <image name="Black Hole Frame2">
+      <file name="Black Hole Frame2.png" size="39128" />
+    </image>
+    <image name="Black Circle">
+      <file name="Black Circle.png" size="19461" />
+    </image>
+    <image name="Sky">
+      <file name="Sky.png" size="1690854" />
+    </image>
+    <image name="Cloud 2">
+      <file name="Cloud 2.png" size="4777" />
+    </image>
+    <image name="Cloud 1">
+      <file name="Cloud 1.png" size="7620" />
+    </image>
+    <image name="Green Platform">
+      <file name="Green Platform.png" size="22499" />
+    </image>
+    <image name="coin1_0">
+      <file name="coin1_0.png" size="25346" />
+    </image>
+    <image name="coin1_1">
+      <file name="coin1_1.png" size="23204" />
+    </image>
+    <image name="coin1_2">
+      <file name="coin1_2.png" size="20303" />
+    </image>
+    <image name="coin1_3">
+      <file name="coin1_3.png" size="16540" />
+    </image>
+    <image name="coin1_4">
+      <file name="coin1_4.png" size="11600" />
+    </image>
+    <image name="coin1_5">
+      <file name="coin1_5.png" size="11596" />
+    </image>
+    <image name="coin1_6">
+      <file name="coin1_6.png" size="16563" />
+    </image>
+    <image name="coin1_7">
+      <file name="coin1_7.png" size="20281" />
+    </image>
+    <image name="coin1_8">
+      <file name="coin1_8.png" size="23285" />
+    </image>
+    <image name="coin1_9">
+      <file name="coin1_9.png" size="25272" />
+    </image>
+    <image name="coin1_10">
+      <file name="coin1_10.png" size="27112" />
+    </image>
+    <image name="coin1_11">
+      <file name="coin1_11.png" size="26438" />
+    </image>
+    <image name="coin1_12">
+      <file name="coin1_12.png" size="4669" />
+    </image>
+    <image name="coin1_13">
+      <file name="coin1_13.png" size="26347" />
+    </image>
+    <image name="coin1_14">
+      <file name="coin1_14.png" size="27324" />
+    </image>
+    <image name="coin1_15">
+      <file name="coin1_15.png" size="30436" />
+    </image>
+    <image name="coin1_16">
+      <file name="coin1_16.png" size="27643" />
+    </image>
+    <image name="coin1_17">
+      <file name="coin1_17.png" size="27377" />
+    </image>
+    <image name="Bottom Ring Green">
+      <file name="Bottom Ring Green.png" size="3989" />
+    </image>
+    <image name="Top Ring Green">
+      <file name="Top Ring Green.png" size="3977" />
+    </image>
+    <image name="Bottom Ring Orange">
+      <file name="Bottom Ring Orange.png" size="18889" />
+    </image>
+    <image name="Top Ring Orange">
+      <file name="Top Ring Orange.png" size="18873" />
+    </image>
+    <image name="Game Over Yellow">
+      <file name="Game Over Yellow.png" size="26466" />
+    </image>
+    <image name="item2 With Score PNG">
+      <file name="item2 With Score PNG.png" size="37318" />
+    </image>
+    <image name="button_Y_play">
+      <file name="button_Y_play.png" size="11500" />
+    </image>
+    <image name="button_Y_menu">
+      <file name="button_Y_menu.png" size="11858" />
+    </image>
+    <image name="Space to Sky">
+      <file name="Space to Sky.png" size="1687158" />
+    </image>
+    <image name="platforms001 long">
+      <file name="platforms001 long.png" size="22184" />
+    </image>
+    <image name="Bottom Ring Yellow">
+      <file name="Bottom Ring Yellow.png" size="3992" />
+    </image>
+    <image name="Top Ring Yellow">
+      <file name="Top Ring Yellow.png" size="3978" />
+    </image>
+    <image name="Bottom Ring White">
+      <file name="Bottom Ring White.png" size="3971" />
+    </image>
+    <image name="Top Ring White">
+      <file name="Top Ring White.png" size="3956" />
+    </image>
+    <image name="Black Hole Frame2 Sky Blue">
+      <file name="Black Hole Frame2 Sky Blue.png" size="29200" />
+    </image>
+    <image name="Blue Sky Background">
+      <file name="Blue Sky Background.png" size="18977" />
+    </image>
+    <image name="platforms002">
+      <file name="platforms002.png" size="22715" />
+    </image>
+    <image name="Menu Title">
+      <file name="Menu Title.png" size="22962" />
+    </image>
+    <image name="button_1">
+      <file name="button_1.png" size="36485" />
+    </image>
+    <image name="button_Y_options">
+      <file name="button_Y_options.png" size="13569" />
+    </image>
+    <image name="Menu Title Yellow">
+      <file name="Menu Title Yellow.png" size="25723" />
+    </image>
+    <image name="button_2">
+      <file name="button_2.png" size="36946" />
+    </image>
+    <image name="Menu Title Yellow With Outline">
+      <file name="Menu Title Yellow With Outline.png" size="26430" />
+    </image>
+    <image name="Coin count Display">
+      <file name="Coin count Display.png" size="26683" />
+    </image>
+    <image name="Coin count Display2">
+      <file name="Coin count Display2.png" size="24329" />
+    </image>
+    <image name="button_Y_pause">
+      <file name="button_Y_pause.png" size="10650" />
+    </image>
+    <image name="button_Y_replay">
+      <file name="button_Y_replay.png" size="13079" />
+    </image>
+    <image name="Mostly Space then to Sky">
+      <file name="Mostly Space then to Sky.png" size="1595880" />
+    </image>
+    <image name="FAde Out">
+      <file name="FAde Out.png" size="223485" />
+    </image>
+    <image name="Best Yellow2">
+      <file name="Best Yellow2.png" size="23906" />
+    </image>
+    <image name="button_Y_front">
+      <file name="button_Y_front.png" size="11223" />
+    </image>
+    <image name="button_Y_soundon">
+      <file name="button_Y_soundon.png" size="12269" />
+    </image>
+    <image name="button_Y_soundoff">
+      <file name="button_Y_soundoff.png" size="11054" />
+    </image>
+    <image name="Tap Outline">
+      <file name="Tap Outline.png" size="22337" />
+    </image>
+    <image name="button2">
+      <file name="button2.png" size="13539" />
+    </image>
+    <image name="button1">
+      <file name="button1.png" size="13586" />
+    </image>
+    <image name="Coin bar1">
+      <file name="Coin bar1.png" size="20629" />
+    </image>
+    <image name="Coin bar2">
+      <file name="Coin bar2.png" size="20636" />
+    </image>
+    <image name="Coin bar3">
+      <file name="Coin bar3.png" size="20687" />
+    </image>
+    <image name="Coin bar4">
+      <file name="Coin bar4.png" size="20645" />
+    </image>
+    <image name="Coin bar5">
+      <file name="Coin bar5.png" size="20648" />
+    </image>
+    <image name="Coin bar6">
+      <file name="Coin bar6.png" size="20675" />
+    </image>
+    <image name="Coin bar7">
+      <file name="Coin bar7.png" size="20680" />
+    </image>
+    <image name="Coin bar8">
+      <file name="Coin bar8.png" size="20691" />
+    </image>
+    <image name="Coin bar9">
+      <file name="Coin bar9.png" size="20700" />
+    </image>
+    <image name="Coin bar10">
+      <file name="Coin bar10.png" size="20700" />
+    </image>
+    <image name="Coin bar11">
+      <file name="Coin bar11.png" size="20711" />
+    </image>
+    <image name="Coin bar12">
+      <file name="Coin bar12.png" size="20721" />
+    </image>
+    <image name="Coin bar13">
+      <file name="Coin bar13.png" size="20747" />
+    </image>
+    <image name="Coin bar14">
+      <file name="Coin bar14.png" size="20733" />
+    </image>
+    <image name="Coin bar15">
+      <file name="Coin bar15.png" size="20738" />
+    </image>
+    <image name="Coin bar16">
+      <file name="Coin bar16.png" size="20745" />
+    </image>
+    <image name="Coin bar17">
+      <file name="Coin bar17.png" size="20802" />
+    </image>
+    <image name="Coin bar18">
+      <file name="Coin bar18.png" size="20826" />
+    </image>
+    <image name="Coin bar19">
+      <file name="Coin bar19.png" size="20771" />
+    </image>
+    <image name="Coin bar20">
+      <file name="Coin bar20.png" size="20779" />
+    </image>
+    <image name="Coin bar21">
+      <file name="Coin bar21.png" size="20805" />
+    </image>
+    <image name="Coin bar22">
+      <file name="Coin bar22.png" size="20794" />
+    </image>
+    <image name="Coin bar23">
+      <file name="Coin bar23.png" size="20814" />
+    </image>
+    <image name="Coin bar24">
+      <file name="Coin bar24.png" size="20800" />
+    </image>
+    <image name="Coin bar25">
+      <file name="Coin bar25.png" size="20803" />
+    </image>
+    <image name="Coin bar26">
+      <file name="Coin bar26.png" size="20843" />
+    </image>
+    <image name="Coin bar27">
+      <file name="Coin bar27.png" size="20856" />
+    </image>
+    <image name="Coin bar28">
+      <file name="Coin bar28.png" size="20831" />
+    </image>
+    <image name="Coin bar29">
+      <file name="Coin bar29.png" size="20846" />
+    </image>
+    <image name="Coin bar30">
+      <file name="Coin bar30.png" size="20847" />
+    </image>
+    <image name="Coin bar31">
+      <file name="Coin bar31.png" size="20867" />
+    </image>
+    <image name="Coin bar32">
+      <file name="Coin bar32.png" size="20862" />
+    </image>
+    <image name="Coin bar33">
+      <file name="Coin bar33.png" size="20868" />
+    </image>
+    <image name="Coin bar34">
+      <file name="Coin bar34.png" size="20851" />
+    </image>
+    <image name="Coin bar35">
+      <file name="Coin bar35.png" size="20865" />
+    </image>
+    <image name="Coin bar36">
+      <file name="Coin bar36.png" size="20888" />
+    </image>
+    <image name="Coin bar00">
+      <file name="Coin bar00.png" size="20675" />
+    </image>
+    <image name="Black Background">
+      <file name="Black Background.png" size="18924" />
+    </image>
+    <image name="Heart">
+      <file name="Heart.png" size="3844" />
+    </image>
+    <image name="Heart Black And White long">
+      <file name="Heart Black And White long.png" size="18153" />
+    </image>
+    <image name="Heart Black And White">
+      <file name="Heart Black And White.png" size="17975" />
+    </image>
+    <image name="Heart long">
+      <file name="Heart long.png" size="22500" />
+    </image>
+    <image name="Heart No Outline">
+      <file name="Heart No Outline.png" size="22211" />
+    </image>
+    <image name="Continue">
+      <file name="Continue.png" size="22730" />
+    </image>
+    <image name="Continue Yellow">
+      <file name="Continue Yellow.png" size="27411" />
+    </image>
+    <image name="fREE Continue PNG">
+      <file name="fREE Continue PNG.png" size="52392" />
+    </image>
+    <image name="Controls Button">
+      <file name="Controls Button.png" size="52723" />
+    </image>
+    <image name="Tips Button PNG">
+      <file name="Tips Button PNG.png" size="52112" />
+    </image>
+    <image name="Tips With Outline">
+      <file name="Tips With Outline.png" size="23476" />
+    </image>
+    <image name="Tips writing PNG">
+      <file name="Tips writing PNG.png" size="24221" />
+    </image>
+    <image name="Controls Writing PNG">
+      <file name="Controls Writing PNG.png" size="23322" />
+    </image>
+    <image name="Controls Scene Title">
+      <file name="Controls Scene Title.png" size="28150" />
+    </image>
+    <image name="Arrow">
+      <file name="Arrow.png" size="18364" />
+    </image>
+    <image name="Happy Face">
+      <file name="Happy Face.png" size="20524" />
+    </image>
+    <image name="Leaderboard PNG">
+      <file name="Leaderboard PNG.png" size="20454" />
+    </image>
+    <image name="Leaderboard2 PNG">
+      <file name="Leaderboard2 PNG.png" size="20911" />
+    </image>
+    <image name="Leaderboard3 PNG">
+      <file name="Leaderboard3 PNG.png" size="25307" />
+    </image>
+  </images>
+  <behaviors />
+</assets>
