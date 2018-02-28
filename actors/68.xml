@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor id="id170903" PGFVersion="0.19" GSCVersion="0.10.5">
+  <attributes>
+    <text id="name">Coin Bar</text>
+    <real id="time">0</real>
+    <point id="position">
+      <real id="x">0</real>
+      <real id="y">0</real>
+    </point>
+    <size id="size">
+      <real id="width">123</real>
+      <real id="height">27</real>
+    </size>
+    <angle id="rotation">0</angle>
+    <color id="color">
+      <real id="red">1</real>
+      <real id="green">0</real>
+      <real id="blue">0.0235294117647059</real>
+      <real id="alpha">0.937254901960784</real>
+    </color>
+    <image id="image">Coin bar00</image>
+    <text id="tags" />
+    <boolean id="preloadArt">true</boolean>
+  </attributes>
+  <behaviors>
+    <behavior id="id846472" class="MoveToBehavior" enabled="true">
+      <attributes>
+        <text id="name">Move To</text>
+        <text id="bundleName">MoveTo.behavior</text>
+        <boolean id="runToCompletion">false</boolean>
+        <point id="position">
+          <real id="x">0</real>
+          <real id="y">380</real>
+        </point>
+        <index id="space">0</index>
+        <real id="speed">500</real>
+      </attributes>
+    </behavior>
+    <behavior id="id551017" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Coin Count Total 0</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id408606" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id840555</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="number">
+            <attributes>
+              <text id="operator">=</text>
+              <real id="RHS">0</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id591039" class="ChangeImageAction" enabled="true">
+          <attributes>
+            <text id="name">Change Image</text>
+            <text id="bundleName">ChangeImage.behavior</text>
+            <image id="image">Coin bar00</image>
+          </attributes>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id816004" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Coin Count Total 1</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id912405" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id840555</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="number">
+            <attributes>
+              <text id="operator">=</text>
+              <real id="RHS">1</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id573861" class="TimerBehavior" enabled="true">
+          <attributes>
+            <text id="name">Timer</text>
+            <text id="bundleName">Timer.behavior</text>
+            <index id="timerType">1</index>
+            <real id="interval">1</real>
+            <boolean id="runToCompletion">false</boolean>
+          </attributes>
+          <behaviors>
+            <behavior id="id288596" class="AnimateBehavior" enabled="true">
+              <attributes>
+                <text id="name">Animate</text>
+                <text id="bundleName">Animate.behavior</text>
+                <text id="images">Coin bar1	Coin bar2	Coin bar3</text>
+                <index id="speed">30</index>
+                <boolean id="loop">false</boolean>
+                <boolean id="restoreActorImage">false</boolean>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id525045" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Coin Count Total 2</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id883167" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id840555</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="number">
+            <attributes>
+              <text id="operator">=</text>
+              <real id="RHS">2</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id907156" class="TimerBehavior" enabled="true">
+          <attributes>
+            <text id="name">Timer</text>
+            <text id="bundleName">Timer.behavior</text>
+            <index id="timerType">1</index>
+            <real id="interval">1</real>
+            <boolean id="runToCompletion">false</boolean>
+          </attributes>
+          <behaviors>
+            <behavior id="id501440" class="AnimateBehavior" enabled="true">
+              <attributes>
+                <text id="name">Animate</text>
+                <text id="bundleName">Animate.behavior</text>
+                <text id="images">Coin bar1	Coin bar2	Coin bar3	Coin bar4	Coin bar5	Coin bar6</text>
+                <index id="speed">30</index>
+                <boolean id="loop">false</boolean>
+                <boolean id="restoreActorImage">false</boolean>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id682179" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Coin Count Total 3</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id352779" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id840555</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="number">
+            <attributes>
+              <text id="operator">=</text>
+              <real id="RHS">3</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id825932" class="TimerBehavior" enabled="true">
+          <attributes>
+            <text id="name">Timer</text>
+            <text id="bundleName">Timer.behavior</text>
+            <index id="timerType">1</index>
+            <real id="interval">1</real>
+            <boolean id="runToCompletion">false</boolean>
+          </attributes>
+          <behaviors>
+            <behavior id="id303718" class="AnimateBehavior" enabled="true">
+              <attributes>
+                <text id="name">Animate</text>
+                <text id="bundleName">Animate.behavior</text>
+                <text id="images">Coin bar1	Coin bar2	Coin bar3	Coin bar4	Coin bar5	Coin bar6	Coin bar7	Coin bar8	Coin bar9</text>
+                <index id="speed">30</index>
+                <boolean id="loop">false</boolean>
+                <boolean id="restoreActorImage">false</boolean>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id309261" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Coin Count Total 4</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id618289" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id840555</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="number">
+            <attributes>
+              <text id="operator">=</text>
+              <real id="RHS">4</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id850546" class="TimerBehavior" enabled="true">
+          <attributes>
+            <text id="name">Timer</text>
+            <text id="bundleName">Timer.behavior</text>
+            <index id="timerType">1</index>
+            <real id="interval">1</real>
+            <boolean id="runToCompletion">false</boolean>
+          </attributes>
+          <behaviors>
+            <behavior id="id361070" class="AnimateBehavior" enabled="true">
+              <attributes>
+                <text id="name">Animate</text>
+                <text id="bundleName">Animate.behavior</text>
+                <text id="images">Coin bar1	Coin bar2	Coin bar3	Coin bar4	Coin bar5	Coin bar6	Coin bar7	Coin bar8	Coin bar9	Coin bar10	Coin bar11	Coin bar12</text>
+                <index id="speed">30</index>
+                <boolean id="loop">false</boolean>
+                <boolean id="restoreActorImage">false</boolean>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id642403" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Coin Count Total 5</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id498598" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id840555</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="number">
+            <attributes>
+              <text id="operator">=</text>
+              <real id="RHS">5</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id946975" class="TimerBehavior" enabled="true">
+          <attributes>
+            <text id="name">Timer</text>
+            <text id="bundleName">Timer.behavior</text>
+            <index id="timerType">1</index>
+            <real id="interval">1</real>
+            <boolean id="runToCompletion">false</boolean>
+          </attributes>
+          <behaviors>
+            <behavior id="id438963" class="AnimateBehavior" enabled="true">
+              <attributes>
+                <text id="name">Animate</text>
+                <text id="bundleName">Animate.behavior</text>
+                <text id="images">Coin bar1	Coin bar2	Coin bar3	Coin bar4	Coin bar5	Coin bar6	Coin bar7	Coin bar8	Coin bar9	Coin bar10	Coin bar11	Coin bar12	Coin bar13	Coin bar14	Coin bar15</text>
+                <index id="speed">30</index>
+                <boolean id="loop">false</boolean>
+                <boolean id="restoreActorImage">false</boolean>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id935048" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Coin Count Total 6</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id757949" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id840555</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="number">
+            <attributes>
+              <text id="operator">=</text>
+              <real id="RHS">6</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id891400" class="TimerBehavior" enabled="true">
+          <attributes>
+            <text id="name">Timer</text>
+            <text id="bundleName">Timer.behavior</text>
+            <index id="timerType">1</index>
+            <real id="interval">1</real>
+            <boolean id="runToCompletion">false</boolean>
+          </attributes>
+          <behaviors>
+            <behavior id="id944075" class="AnimateBehavior" enabled="true">
+              <attributes>
+                <text id="name">Animate</text>
+                <text id="bundleName">Animate.behavior</text>
+                <text id="images">Coin bar1	Coin bar2	Coin bar3	Coin bar4	Coin bar5	Coin bar6	Coin bar7	Coin bar8	Coin bar9	Coin bar10	Coin bar11	Coin bar12	Coin bar13	Coin bar14	Coin bar15	Coin bar16	Coin bar17	Coin bar18</text>
+                <index id="speed">30</index>
+                <boolean id="loop">false</boolean>
+                <boolean id="restoreActorImage">false</boolean>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id257817" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Coin Count Total 7</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id450041" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id840555</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="number">
+            <attributes>
+              <text id="operator">=</text>
+              <real id="RHS">7</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id346750" class="TimerBehavior" enabled="true">
+          <attributes>
+            <text id="name">Timer</text>
+            <text id="bundleName">Timer.behavior</text>
+            <index id="timerType">1</index>
+            <real id="interval">1</real>
+            <boolean id="runToCompletion">false</boolean>
+          </attributes>
+          <behaviors>
+            <behavior id="id865608" class="AnimateBehavior" enabled="true">
+              <attributes>
+                <text id="name">Animate</text>
+                <text id="bundleName">Animate.behavior</text>
+                <text id="images">Coin bar1	Coin bar2	Coin bar3	Coin bar4	Coin bar5	Coin bar6	Coin bar7	Coin bar8	Coin bar9	Coin bar10	Coin bar11	Coin bar12	Coin bar13	Coin bar14	Coin bar15	Coin bar16	Coin bar17	Coin bar18	Coin bar19	Coin bar20	Coin bar21</text>
+                <index id="speed">30</index>
+                <boolean id="loop">false</boolean>
+                <boolean id="restoreActorImage">false</boolean>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id299749" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Coin Count Total 8</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id304943" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id840555</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="number">
+            <attributes>
+              <text id="operator">=</text>
+              <real id="RHS">8</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id314580" class="TimerBehavior" enabled="true">
+          <attributes>
+            <text id="name">Timer</text>
+            <text id="bundleName">Timer.behavior</text>
+            <index id="timerType">1</index>
+            <real id="interval">1</real>
+            <boolean id="runToCompletion">false</boolean>
+          </attributes>
+          <behaviors>
+            <behavior id="id327120" class="AnimateBehavior" enabled="true">
+              <attributes>
+                <text id="name">Animate</text>
+                <text id="bundleName">Animate.behavior</text>
+                <text id="images">Coin bar1	Coin bar2	Coin bar3	Coin bar4	Coin bar5	Coin bar6	Coin bar7	Coin bar8	Coin bar9	Coin bar10	Coin bar11	Coin bar12	Coin bar13	Coin bar14	Coin bar15	Coin bar16	Coin bar17	Coin bar18	Coin bar19	Coin bar20	Coin bar21	Coin bar22	Coin bar23	Coin bar24</text>
+                <index id="speed">30</index>
+                <boolean id="loop">false</boolean>
+                <boolean id="restoreActorImage">false</boolean>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id983742" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Coin Count Total 9</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id617812" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id840555</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="number">
+            <attributes>
+              <text id="operator">=</text>
+              <real id="RHS">9</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id826651" class="TimerBehavior" enabled="true">
+          <attributes>
+            <text id="name">Timer</text>
+            <text id="bundleName">Timer.behavior</text>
+            <index id="timerType">1</index>
+            <real id="interval">1</real>
+            <boolean id="runToCompletion">false</boolean>
+          </attributes>
+          <behaviors>
+            <behavior id="id473580" class="AnimateBehavior" enabled="true">
+              <attributes>
+                <text id="name">Animate</text>
+                <text id="bundleName">Animate.behavior</text>
+                <text id="images">Coin bar1	Coin bar2	Coin bar3	Coin bar4	Coin bar5	Coin bar6	Coin bar7	Coin bar8	Coin bar9	Coin bar10	Coin bar11	Coin bar12	Coin bar13	Coin bar14	Coin bar15	Coin bar16	Coin bar17	Coin bar18	Coin bar19	Coin bar20	Coin bar21	Coin bar22	Coin bar23	Coin bar24	Coin bar25	Coin bar26	Coin bar27</text>
+                <index id="speed">30</index>
+                <boolean id="loop">false</boolean>
+                <boolean id="restoreActorImage">false</boolean>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id439206" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Coin Count Total 10</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id272125" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id840555</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="number">
+            <attributes>
+              <text id="operator">=</text>
+              <real id="RHS">10</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id495461" class="TimerBehavior" enabled="true">
+          <attributes>
+            <text id="name">Timer</text>
+            <text id="bundleName">Timer.behavior</text>
+            <index id="timerType">1</index>
+            <real id="interval">1</real>
+            <boolean id="runToCompletion">false</boolean>
+          </attributes>
+          <behaviors>
+            <behavior id="id869787" class="AnimateBehavior" enabled="true">
+              <attributes>
+                <text id="name">Animate</text>
+                <text id="bundleName">Animate.behavior</text>
+                <text id="images">Coin bar1	Coin bar2	Coin bar3	Coin bar4	Coin bar5	Coin bar6	Coin bar7	Coin bar8	Coin bar9	Coin bar10	Coin bar11	Coin bar12	Coin bar13	Coin bar14	Coin bar15	Coin bar16	Coin bar17	Coin bar18	Coin bar19	Coin bar20	Coin bar21	Coin bar22	Coin bar23	Coin bar24	Coin bar25	Coin bar26	Coin bar27	Coin bar28	Coin bar29	Coin bar30</text>
+                <index id="speed">30</index>
+                <boolean id="loop">false</boolean>
+                <boolean id="restoreActorImage">false</boolean>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id101061" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Coin Count Total 11</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id705847" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id840555</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="number">
+            <attributes>
+              <text id="operator">=</text>
+              <real id="RHS">11</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id884135" class="TimerBehavior" enabled="true">
+          <attributes>
+            <text id="name">Timer</text>
+            <text id="bundleName">Timer.behavior</text>
+            <index id="timerType">1</index>
+            <real id="interval">1</real>
+            <boolean id="runToCompletion">false</boolean>
+          </attributes>
+          <behaviors>
+            <behavior id="id229565" class="AnimateBehavior" enabled="true">
+              <attributes>
+                <text id="name">Animate</text>
+                <text id="bundleName">Animate.behavior</text>
+                <text id="images">Coin bar1	Coin bar2	Coin bar3	Coin bar4	Coin bar5	Coin bar6	Coin bar7	Coin bar8	Coin bar9	Coin bar10	Coin bar11	Coin bar12	Coin bar13	Coin bar14	Coin bar15	Coin bar16	Coin bar17	Coin bar18	Coin bar19	Coin bar20	Coin bar21	Coin bar22	Coin bar23	Coin bar24	Coin bar25	Coin bar26	Coin bar27	Coin bar28	Coin bar29	Coin bar30	Coin bar31	Coin bar32	Coin bar33</text>
+                <index id="speed">30</index>
+                <boolean id="loop">false</boolean>
+                <boolean id="restoreActorImage">false</boolean>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id680126" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Coin Count Total 12</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id941356" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id840555</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="number">
+            <attributes>
+              <text id="operator">=</text>
+              <real id="RHS">12</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id463028" class="TimerBehavior" enabled="true">
+          <attributes>
+            <text id="name">Timer</text>
+            <text id="bundleName">Timer.behavior</text>
+            <index id="timerType">1</index>
+            <real id="interval">1</real>
+            <boolean id="runToCompletion">false</boolean>
+          </attributes>
+          <behaviors>
+            <behavior id="id930108" class="AnimateBehavior" enabled="true">
+              <attributes>
+                <text id="name">Animate</text>
+                <text id="bundleName">Animate.behavior</text>
+                <text id="images">Coin bar1	Coin bar2	Coin bar3	Coin bar4	Coin bar5	Coin bar6	Coin bar7	Coin bar8	Coin bar9	Coin bar10	Coin bar11	Coin bar12	Coin bar13	Coin bar14	Coin bar15	Coin bar16	Coin bar17	Coin bar18	Coin bar19	Coin bar20	Coin bar21	Coin bar22	Coin bar23	Coin bar24	Coin bar25	Coin bar26	Coin bar27	Coin bar28	Coin bar29	Coin bar30	Coin bar31	Coin bar32	Coin bar33	Coin bar34	Coin bar35	Coin bar36</text>
+                <index id="speed">30</index>
+                <boolean id="loop">false</boolean>
+                <boolean id="restoreActorImage">false</boolean>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+        <behavior id="id904631" class="TimerBehavior" enabled="true">
+          <attributes>
+            <text id="name">Timer</text>
+            <text id="bundleName">Timer.behavior</text>
+            <index id="timerType">1</index>
+            <real id="interval">2.8</real>
+            <boolean id="runToCompletion">false</boolean>
+          </attributes>
+          <behaviors>
+            <behavior id="id114538" class="AnimateBehavior" enabled="true">
+              <attributes>
+                <text id="name">Animate</text>
+                <text id="bundleName">Animate.behavior</text>
+                <text id="images">Coin bar00</text>
+                <index id="speed">0</index>
+                <boolean id="loop">false</boolean>
+                <boolean id="restoreActorImage">false</boolean>
+              </attributes>
+            </behavior>
+            <behavior id="id476041" class="ChangeAttributeAction" enabled="true">
+              <attributes>
+                <text id="name">Change Attribute</text>
+                <text id="bundleName">ChangeAttribute.behavior</text>
+                <text id="targetAttribute">game.attributes.id840555</text>
+                <text id="RHS">0</text>
+              </attributes>
+            </behavior>
+            <behavior id="id819160" class="ChangeAttributeAction" enabled="true">
+              <attributes>
+                <text id="name">Change Attribute</text>
+                <text id="bundleName">ChangeAttribute.behavior</text>
+                <text id="targetAttribute">game.attributes.id620969</text>
+                <text id="RHS">
+                  <expression>
+                    <reference keypath="game.attributes.id620969" />
+                    <string xml:space="preserve">+1</string>
+                  </expression>
+                </text>
+              </attributes>
+            </behavior>
+            <behavior id="id293583" class="SaveAttributeAction" enabled="true">
+              <attributes>
+                <text id="name">Save Attribute</text>
+                <text id="bundleName">SaveAttribute.behavior</text>
+                <text id="targetAttribute">game.attributes.id620969</text>
+                <text id="key">c</text>
+              </attributes>
+            </behavior>
+            <behavior id="id801778" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id141866" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">game.attributes.id815499</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="number">
+                    <attributes>
+                      <text id="operator">=</text>
+                      <real id="RHS">0</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id869878" class="PlaySoundAction" enabled="true">
+                  <attributes>
+                    <text id="name">Play Sound</text>
+                    <text id="bundleName">PlaySound.behavior</text>
+                    <sound id="soundName">Heart_Count</sound>
+                    <boolean id="loop">false</boolean>
+                    <boolean id="runToCompletion">true</boolean>
+                    <boolean id="positional">false</boolean>
+                    <boolean id="dopplerShift">false</boolean>
+                    <real id="volume">1</real>
+                    <real id="pitch">1</real>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id270804" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Coin Count Total Greater than 12</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id797435" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id840555</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="number">
+            <attributes>
+              <text id="operator">&gt;</text>
+              <real id="RHS">12</real>
+            </attributes>
+          </predicate>
+        </condition>
+        <condition id="id746547" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id840555</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="number">
+            <attributes>
+              <text id="operator">&lt;</text>
+              <real id="RHS">24</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id842272" class="TimerBehavior" enabled="true">
+          <attributes>
+            <text id="name">Timer</text>
+            <text id="bundleName">Timer.behavior</text>
+            <index id="timerType">1</index>
+            <real id="interval">1</real>
+            <boolean id="runToCompletion">false</boolean>
+          </attributes>
+          <behaviors>
+            <behavior id="id850641" class="AnimateBehavior" enabled="true">
+              <attributes>
+                <text id="name">Animate</text>
+                <text id="bundleName">Animate.behavior</text>
+                <text id="images">Coin bar1	Coin bar2	Coin bar3	Coin bar4	Coin bar5	Coin bar6	Coin bar7	Coin bar8	Coin bar9	Coin bar10	Coin bar11	Coin bar12	Coin bar13	Coin bar14	Coin bar15	Coin bar16	Coin bar17	Coin bar18	Coin bar19	Coin bar20	Coin bar21	Coin bar22	Coin bar23	Coin bar24	Coin bar25	Coin bar26	Coin bar27	Coin bar28	Coin bar29	Coin bar30	Coin bar31	Coin bar32	Coin bar33	Coin bar34	Coin bar35	Coin bar36</text>
+                <index id="speed">30</index>
+                <boolean id="loop">false</boolean>
+                <boolean id="restoreActorImage">false</boolean>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+        <behavior id="id357472" class="TimerBehavior" enabled="true">
+          <attributes>
+            <text id="name">Timer</text>
+            <text id="bundleName">Timer.behavior</text>
+            <index id="timerType">1</index>
+            <real id="interval">2.7</real>
+            <boolean id="runToCompletion">false</boolean>
+          </attributes>
+          <behaviors>
+            <behavior id="id815897" class="ChangeAttributeAction" enabled="true">
+              <attributes>
+                <text id="name">Change Attribute</text>
+                <text id="bundleName">ChangeAttribute.behavior</text>
+                <text id="targetAttribute">game.attributes.id840555</text>
+                <text id="RHS">
+                  <expression>
+                    <reference keypath="game.attributes.id840555" />
+                    <string xml:space="preserve">-12</string>
+                  </expression>
+                </text>
+              </attributes>
+            </behavior>
+            <behavior id="id283115" class="ChangeAttributeAction" enabled="true">
+              <attributes>
+                <text id="name">Change Attribute</text>
+                <text id="bundleName">ChangeAttribute.behavior</text>
+                <text id="targetAttribute">game.attributes.id620969</text>
+                <text id="RHS">
+                  <expression>
+                    <reference keypath="game.attributes.id620969" />
+                    <string xml:space="preserve">+1</string>
+                  </expression>
+                </text>
+              </attributes>
+            </behavior>
+            <behavior id="id192351" class="SaveAttributeAction" enabled="true">
+              <attributes>
+                <text id="name">Save Attribute</text>
+                <text id="bundleName">SaveAttribute.behavior</text>
+                <text id="targetAttribute">game.attributes.id620969</text>
+                <text id="key">c</text>
+              </attributes>
+            </behavior>
+            <behavior id="id299838" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id102253" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">game.attributes.id815499</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="number">
+                    <attributes>
+                      <text id="operator">=</text>
+                      <real id="RHS">0</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id813049" class="PlaySoundAction" enabled="true">
+                  <attributes>
+                    <text id="name">Play Sound</text>
+                    <text id="bundleName">PlaySound.behavior</text>
+                    <sound id="soundName">Heart_Count</sound>
+                    <boolean id="loop">false</boolean>
+                    <boolean id="runToCompletion">true</boolean>
+                    <boolean id="positional">false</boolean>
+                    <boolean id="dopplerShift">false</boolean>
+                    <real id="volume">1</real>
+                    <real id="pitch">1</real>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id317599" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Coin Count Total Greater 24</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id194388" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id840555</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="number">
+            <attributes>
+              <text id="operator">&gt;=</text>
+              <real id="RHS">24</real>
+            </attributes>
+          </predicate>
+        </condition>
+        <condition id="id250958" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id840555</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="number">
+            <attributes>
+              <text id="operator">&lt;</text>
+              <real id="RHS">36</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id726999" class="TimerBehavior" enabled="true">
+          <attributes>
+            <text id="name">Timer</text>
+            <text id="bundleName">Timer.behavior</text>
+            <index id="timerType">1</index>
+            <real id="interval">1</real>
+            <boolean id="runToCompletion">false</boolean>
+          </attributes>
+          <behaviors>
+            <behavior id="id876010" class="AnimateBehavior" enabled="true">
+              <attributes>
+                <text id="name">Animate</text>
+                <text id="bundleName">Animate.behavior</text>
+                <text id="images">Coin bar1	Coin bar2	Coin bar3	Coin bar4	Coin bar5	Coin bar6	Coin bar7	Coin bar8	Coin bar9	Coin bar10	Coin bar11	Coin bar12	Coin bar13	Coin bar14	Coin bar15	Coin bar16	Coin bar17	Coin bar18	Coin bar19	Coin bar20	Coin bar21	Coin bar22	Coin bar23	Coin bar24	Coin bar25	Coin bar26	Coin bar27	Coin bar28	Coin bar29	Coin bar30	Coin bar31	Coin bar32	Coin bar33	Coin bar34	Coin bar35	Coin bar36</text>
+                <index id="speed">30</index>
+                <boolean id="loop">false</boolean>
+                <boolean id="restoreActorImage">false</boolean>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+        <behavior id="id234452" class="TimerBehavior" enabled="true">
+          <attributes>
+            <text id="name">Timer</text>
+            <text id="bundleName">Timer.behavior</text>
+            <index id="timerType">1</index>
+            <real id="interval">2.7</real>
+            <boolean id="runToCompletion">false</boolean>
+          </attributes>
+          <behaviors>
+            <behavior id="id153623" class="ChangeAttributeAction" enabled="true">
+              <attributes>
+                <text id="name">Change Attribute</text>
+                <text id="bundleName">ChangeAttribute.behavior</text>
+                <text id="targetAttribute">game.attributes.id840555</text>
+                <text id="RHS">
+                  <expression>
+                    <reference keypath="game.attributes.id840555" />
+                    <string xml:space="preserve">-24</string>
+                  </expression>
+                </text>
+              </attributes>
+            </behavior>
+            <behavior id="id532729" class="ChangeAttributeAction" enabled="true">
+              <attributes>
+                <text id="name">Change Attribute</text>
+                <text id="bundleName">ChangeAttribute.behavior</text>
+                <text id="targetAttribute">game.attributes.id620969</text>
+                <text id="RHS">
+                  <expression>
+                    <reference keypath="game.attributes.id620969" />
+                    <string xml:space="preserve">+</string>
+                    <string xml:space="preserve">2</string>
+                  </expression>
+                </text>
+              </attributes>
+            </behavior>
+            <behavior id="id643939" class="SaveAttributeAction" enabled="true">
+              <attributes>
+                <text id="name">Save Attribute</text>
+                <text id="bundleName">SaveAttribute.behavior</text>
+                <text id="targetAttribute">game.attributes.id620969</text>
+                <text id="key">c</text>
+              </attributes>
+            </behavior>
+            <behavior id="id376370" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id928733" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">game.attributes.id815499</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="number">
+                    <attributes>
+                      <text id="operator">=</text>
+                      <real id="RHS">0</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id105093" class="PlaySoundAction" enabled="true">
+                  <attributes>
+                    <text id="name">Play Sound</text>
+                    <text id="bundleName">PlaySound.behavior</text>
+                    <sound id="soundName">Heart_Count</sound>
+                    <boolean id="loop">false</boolean>
+                    <boolean id="runToCompletion">true</boolean>
+                    <boolean id="positional">false</boolean>
+                    <boolean id="dopplerShift">false</boolean>
+                    <real id="volume">1</real>
+                    <real id="pitch">1</real>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id700161" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Coin Count Total Greater 36</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id462993" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id840555</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="number">
+            <attributes>
+              <text id="operator">&gt;=</text>
+              <real id="RHS">36</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id137494" class="TimerBehavior" enabled="true">
+          <attributes>
+            <text id="name">Timer</text>
+            <text id="bundleName">Timer.behavior</text>
+            <index id="timerType">1</index>
+            <real id="interval">1</real>
+            <boolean id="runToCompletion">false</boolean>
+          </attributes>
+          <behaviors>
+            <behavior id="id860588" class="AnimateBehavior" enabled="true">
+              <attributes>
+                <text id="name">Animate</text>
+                <text id="bundleName">Animate.behavior</text>
+                <text id="images">Coin bar1	Coin bar2	Coin bar3	Coin bar4	Coin bar5	Coin bar6	Coin bar7	Coin bar8	Coin bar9	Coin bar10	Coin bar11	Coin bar12	Coin bar13	Coin bar14	Coin bar15	Coin bar16	Coin bar17	Coin bar18	Coin bar19	Coin bar20	Coin bar21	Coin bar22	Coin bar23	Coin bar24	Coin bar25	Coin bar26	Coin bar27	Coin bar28	Coin bar29	Coin bar30	Coin bar31	Coin bar32	Coin bar33	Coin bar34	Coin bar35	Coin bar36</text>
+                <index id="speed">30</index>
+                <boolean id="loop">false</boolean>
+                <boolean id="restoreActorImage">false</boolean>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+        <behavior id="id420787" class="TimerBehavior" enabled="true">
+          <attributes>
+            <text id="name">Timer</text>
+            <text id="bundleName">Timer.behavior</text>
+            <index id="timerType">1</index>
+            <real id="interval">2.7</real>
+            <boolean id="runToCompletion">false</boolean>
+          </attributes>
+          <behaviors>
+            <behavior id="id211263" class="ChangeAttributeAction" enabled="true">
+              <attributes>
+                <text id="name">Change Attribute</text>
+                <text id="bundleName">ChangeAttribute.behavior</text>
+                <text id="targetAttribute">game.attributes.id840555</text>
+                <text id="RHS">0</text>
+              </attributes>
+            </behavior>
+            <behavior id="id818419" class="ChangeAttributeAction" enabled="true">
+              <attributes>
+                <text id="name">Change Attribute</text>
+                <text id="bundleName">ChangeAttribute.behavior</text>
+                <text id="targetAttribute">game.attributes.id620969</text>
+                <text id="RHS">
+                  <expression>
+                    <reference keypath="game.attributes.id620969" />
+                    <string xml:space="preserve">+</string>
+                    <string xml:space="preserve">3</string>
+                  </expression>
+                </text>
+              </attributes>
+            </behavior>
+            <behavior id="id612793" class="SaveAttributeAction" enabled="true">
+              <attributes>
+                <text id="name">Save Attribute</text>
+                <text id="bundleName">SaveAttribute.behavior</text>
+                <text id="targetAttribute">game.attributes.id620969</text>
+                <text id="key">c</text>
+              </attributes>
+            </behavior>
+            <behavior id="id715634" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id388163" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">game.attributes.id815499</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="number">
+                    <attributes>
+                      <text id="operator">=</text>
+                      <real id="RHS">0</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id134278" class="PlaySoundAction" enabled="true">
+                  <attributes>
+                    <text id="name">Play Sound</text>
+                    <text id="bundleName">PlaySound.behavior</text>
+                    <sound id="soundName">Heart_Count</sound>
+                    <boolean id="loop">false</boolean>
+                    <boolean id="runToCompletion">true</boolean>
+                    <boolean id="positional">false</boolean>
+                    <boolean id="dopplerShift">false</boolean>
+                    <real id="volume">1</real>
+                    <real id="pitch">1</real>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id860888" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Destroy</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">1</real>
+      </attributes>
+      <conditions>
+        <condition id="id339343" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id836939</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="boolean">
+            <attributes>
+              <index id="RHS">1</index>
+            </attributes>
+          </predicate>
+        </condition>
+        <condition id="id400855" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id534400</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="number">
+            <attributes>
+              <text id="operator">=</text>
+              <real id="RHS">1</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id615128" class="DestroyAction" enabled="true">
+          <attributes>
+            <text id="name">Destroy</text>
+            <text id="bundleName">Destroy.behavior</text>
+          </attributes>
+        </behavior>
+      </behaviors>
+    </behavior>
+  </behaviors>
+  <aspects>
+    <graphics>
+      <attributes>
+        <boolean id="visible">true</boolean>
+        <enumeration id="blendingMode">0</enumeration>
+        <enumeration id="horizontalWrap">0</enumeration>
+        <enumeration id="verticalWrap">0</enumeration>
+        <enumeration id="horizontalAnchor">0</enumeration>
+        <enumeration id="verticalAnchor">0</enumeration>
+        <boolean id="flipHorizontally">false</boolean>
+        <boolean id="flipVertically">false</boolean>
+        <integer id="tileWidth">0</integer>
+        <integer id="tileHeight">0</integer>
+      </attributes>
+    </graphics>
+    <motion>
+      <attributes>
+        <point id="linearVelocity">
+          <real id="x">0</real>
+          <real id="y">0</real>
+        </point>
+        <real id="angularVelocity">0</real>
+        <real id="maxSpeed">0</real>
+        <boolean id="applyMaxSpeed">false</boolean>
+      </attributes>
+    </motion>
+    <physics>
+      <attributes>
+        <real id="density">1</real>
+        <real id="friction">3</real>
+        <real id="restitution">1</real>
+        <boolean id="fixedRotation">false</boolean>
+        <boolean id="movable">true</boolean>
+        <enumeration id="collisionShape">0</enumeration>
+        <real id="drag">0</real>
+        <real id="angularDrag">0</real>
+      </attributes>
+    </physics>
+  </aspects>
+</actor>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor id="id480494" PGFVersion="0.19" GSCVersion="0.10.5">
+  <attributes>
+    <text id="name">Alian Spawn From Blackhole</text>
+    <real id="time">0</real>
+    <point id="position">
+      <real id="x">0</real>
+      <real id="y">0</real>
+    </point>
+    <size id="size">
+      <real id="width">30</real>
+      <real id="height">34</real>
+    </size>
+    <angle id="rotation">0</angle>
+    <color id="color">
+      <real id="red">1</real>
+      <real id="green">1</real>
+      <real id="blue">1</real>
+      <real id="alpha">1</real>
+    </color>
+    <image id="image">Shrink 21</image>
+    <text id="tags" />
+    <boolean id="preloadArt">true</boolean>
+  </attributes>
+  <behaviors>
+    <behavior id="id893319" class="AnimateBehavior" enabled="true">
+      <attributes>
+        <text id="name">Animate</text>
+        <text id="bundleName">Animate.behavior</text>
+        <text id="images">Shrink 20	Shrink 19	Shrink 18	Shrink 17	Shrink 16	Shrink 15	Shrink 14	Shrink 13	Shrink 12	Shrink 11	Shrink 10	Shrink 9	Shrink 8	Shrink 7	Shrink 6	Shrink 5	Shrink 4	Shrink 3	Shrink 2	Shrink 1</text>
+        <index id="speed">20</index>
+        <boolean id="loop">false</boolean>
+        <boolean id="restoreActorImage">false</boolean>
+      </attributes>
+    </behavior>
+    <behavior id="id241551" class="MoveToBehavior" enabled="true">
+      <attributes>
+        <text id="name">Movment Out Of Blackhole</text>
+        <text id="bundleName">MoveTo.behavior</text>
+        <boolean id="runToCompletion">false</boolean>
+        <point id="position">
+          <real id="x">200</real>
+          <real id="y">250</real>
+        </point>
+        <index id="space">1</index>
+        <real id="speed">25</real>
+      </attributes>
+    </behavior>
+    <behavior id="id885098" class="RotateBehavior" enabled="true">
+      <attributes>
+        <text id="name">Rotate</text>
+        <text id="bundleName">Rotate.behavior</text>
+        <real id="angularVelocity">500</real>
+        <index id="direction">1</index>
+      </attributes>
+    </behavior>
+    <behavior id="id640919" class="TimerBehavior" enabled="true">
+      <attributes>
+        <text id="name">Spawn Alian/Destroy Actor</text>
+        <text id="bundleName">Timer.behavior</text>
+        <index id="timerType">1</index>
+        <real id="interval">1.45</real>
+        <boolean id="runToCompletion">false</boolean>
+      </attributes>
+      <behaviors>
+        <behavior id="id258471" class="SpawnAction" enabled="true">
+          <attributes>
+            <text id="name">Spawn Actor</text>
+            <text id="bundleName">Spawn.behavior</text>
+            <text id="prototypeKey">id831345</text>
+            <angle id="direction">0</angle>
+            <index id="directionSpace">0</index>
+            <real id="x">0</real>
+            <real id="y">0</real>
+            <index id="positionSpace">0</index>
+            <index id="layerOrder">0</index>
+          </attributes>
+        </behavior>
+        <behavior id="id191828" class="DestroyAction" enabled="true">
+          <attributes>
+            <text id="name">Destroy</text>
+            <text id="bundleName">Destroy.behavior</text>
+          </attributes>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id929335" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Play Suck out</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id129827" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id815499</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="number">
+            <attributes>
+              <text id="operator">=</text>
+              <real id="RHS">0</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id939001" class="PlaySoundAction" enabled="true">
+          <attributes>
+            <text id="name">Play Sound</text>
+            <text id="bundleName">PlaySound.behavior</text>
+            <sound id="soundName">Suck-out</sound>
+            <boolean id="loop">false</boolean>
+            <boolean id="runToCompletion">true</boolean>
+            <boolean id="positional">false</boolean>
+            <boolean id="dopplerShift">false</boolean>
+            <real id="volume">1</real>
+            <real id="pitch">1</real>
+          </attributes>
+        </behavior>
+      </behaviors>
+    </behavior>
+  </behaviors>
+  <aspects>
+    <graphics>
+      <attributes>
+        <boolean id="visible">true</boolean>
+        <enumeration id="blendingMode">0</enumeration>
+        <enumeration id="horizontalWrap">0</enumeration>
+        <enumeration id="verticalWrap">0</enumeration>
+        <enumeration id="horizontalAnchor">0</enumeration>
+        <enumeration id="verticalAnchor">0</enumeration>
+        <boolean id="flipHorizontally">false</boolean>
+        <boolean id="flipVertically">false</boolean>
+        <integer id="tileWidth">118</integer>
+        <integer id="tileHeight">115</integer>
+      </attributes>
+    </graphics>
+    <motion>
+      <attributes>
+        <point id="linearVelocity">
+          <real id="x">0</real>
+          <real id="y">0</real>
+        </point>
+        <real id="angularVelocity">0</real>
+        <real id="maxSpeed">0</real>
+        <boolean id="applyMaxSpeed">false</boolean>
+      </attributes>
+    </motion>
+    <physics>
+      <attributes>
+        <real id="density">1</real>
+        <real id="friction">3</real>
+        <real id="restitution">1</real>
+        <boolean id="fixedRotation">false</boolean>
+        <boolean id="movable">true</boolean>
+        <enumeration id="collisionShape">0</enumeration>
+        <real id="drag">0</real>
+        <real id="angularDrag">0</real>
+      </attributes>
+    </physics>
+  </aspects>
+</actor>

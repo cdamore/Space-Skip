@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor id="id180163" PGFVersion="0.19" GSCVersion="0.10.5">
+  <attributes>
+    <text id="name">Blackhole 1</text>
+    <real id="time">0</real>
+    <point id="position">
+      <real id="x">0</real>
+      <real id="y">0</real>
+    </point>
+    <size id="size">
+      <real id="width">149</real>
+      <real id="height">109</real>
+    </size>
+    <angle id="rotation">0</angle>
+    <color id="color">
+      <real id="red">0.227450980392157</real>
+      <real id="green">1</real>
+      <real id="blue">0</real>
+      <real id="alpha">1</real>
+    </color>
+    <image id="image">TUNFR_00000</image>
+    <text id="tags">Blackholes</text>
+    <boolean id="preloadArt">true</boolean>
+  </attributes>
+  <behaviors>
+    <behavior id="id872146" class="AnimateBehavior" enabled="true">
+      <attributes>
+        <text id="name">Animate</text>
+        <text id="bundleName">Animate.behavior</text>
+        <text id="images">TUNFR_00001	TUNFR_00002	TUNFR_00003	TUNFR_00004	TUNFR_00005	TUNFR_00006	TUNFR_00007	TUNFR_00008	TUNFR_00009	TUNFR_00010	TUNFR_00011	TUNFR_00012	TUNFR_00013	TUNFR_00014	TUNFR_00015	TUNFR_00016	TUNFR_00017	TUNFR_00018	TUNFR_00019	TUNFR_00020	TUNFR_00021	TUNFR_00022	TUNFR_00023	TUNFR_00024	TUNFR_00025	TUNFR_00026	TUNFR_00027	TUNFR_00028	TUNFR_00029	TUNFR_00030	TUNFR_00031	TUNFR_00032	TUNFR_00033	TUNFR_00034	TUNFR_00035	TUNFR_00036	TUNFR_00037	TUNFR_00038	TUNFR_00039	TUNFR_00040	TUNFR_00041	TUNFR_00042	TUNFR_00043	TUNFR_00044	TUNFR_00045	TUNFR_00046	TUNFR_00047	TUNFR_00048	TUNFR_00049	TUNFR_00050	TUNFR_00051	TUNFR_00052	TUNFR_00053	TUNFR_00054	TUNFR_00055	TUNFR_00056	TUNFR_00057	TUNFR_00058	TUNFR_00059	TUNFR_00060	TUNFR_00061	TUNFR_00062</text>
+        <index id="speed">30</index>
+        <boolean id="loop">true</boolean>
+        <boolean id="restoreActorImage">true</boolean>
+      </attributes>
+    </behavior>
+    <behavior id="id525429" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Shrink/ChangeScene/Destroy</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id879330" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id435579</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="boolean">
+            <attributes>
+              <index id="RHS">1</index>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id997947" class="TimerBehavior" enabled="true">
+          <attributes>
+            <text id="name">Shrink</text>
+            <text id="bundleName">Timer.behavior</text>
+            <index id="timerType">0</index>
+            <real id="interval">0.1</real>
+            <boolean id="runToCompletion">false</boolean>
+          </attributes>
+          <behaviors>
+            <behavior id="id241221" class="GrowShrinkBehavior" enabled="true">
+              <attributes>
+                <text id="name">Change Size</text>
+                <text id="bundleName">ChangeSize.behavior</text>
+                <real id="growthRate">-30</real>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+        <behavior id="id101958" class="TimerBehavior" enabled="true">
+          <attributes>
+            <text id="name">ChangeScene/Destroy</text>
+            <text id="bundleName">Timer.behavior</text>
+            <index id="timerType">1</index>
+            <real id="interval">1.2</real>
+            <boolean id="runToCompletion">false</boolean>
+          </attributes>
+          <behaviors>
+            <behavior id="id319511" class="ChangeSceneAction" enabled="true">
+              <attributes>
+                <text id="name">Change Scene</text>
+                <text id="bundleName">ChangeScene.behavior</text>
+                <text id="sceneKey">id379752</text>
+                <boolean id="enableAdvertisement">false</boolean>
+              </attributes>
+            </behavior>
+            <behavior id="id956384" class="DestroyAction" enabled="true">
+              <attributes>
+                <text id="name">Destroy</text>
+                <text id="bundleName">Destroy.behavior</text>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+        <behavior id="id673974" class="SaveAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Save Attribute</text>
+            <text id="bundleName">SaveAttribute.behavior</text>
+            <text id="targetAttribute">game.attributes.id128143</text>
+            <text id="key">h</text>
+          </attributes>
+        </behavior>
+      </behaviors>
+    </behavior>
+  </behaviors>
+  <aspects>
+    <graphics>
+      <attributes>
+        <boolean id="visible">true</boolean>
+        <enumeration id="blendingMode">0</enumeration>
+        <enumeration id="horizontalWrap">0</enumeration>
+        <enumeration id="verticalWrap">0</enumeration>
+        <enumeration id="horizontalAnchor">0</enumeration>
+        <enumeration id="verticalAnchor">0</enumeration>
+        <boolean id="flipHorizontally">false</boolean>
+        <boolean id="flipVertically">false</boolean>
+        <integer id="tileWidth">720</integer>
+        <integer id="tileHeight">540</integer>
+      </attributes>
+    </graphics>
+    <motion>
+      <attributes>
+        <point id="linearVelocity">
+          <real id="x">0</real>
+          <real id="y">0</real>
+        </point>
+        <real id="angularVelocity">0</real>
+        <real id="maxSpeed">0</real>
+        <boolean id="applyMaxSpeed">false</boolean>
+      </attributes>
+    </motion>
+    <physics>
+      <attributes>
+        <real id="density">1</real>
+        <real id="friction">3</real>
+        <real id="restitution">1</real>
+        <boolean id="fixedRotation">false</boolean>
+        <boolean id="movable">true</boolean>
+        <enumeration id="collisionShape">0</enumeration>
+        <real id="drag">0</real>
+        <real id="angularDrag">0</real>
+      </attributes>
+    </physics>
+  </aspects>
+</actor>

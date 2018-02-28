@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor id="id642329" PGFVersion="0.19" GSCVersion="0.10.5">
+  <attributes>
+    <text id="name">Game Over Text</text>
+    <real id="time">0</real>
+    <point id="position">
+      <real id="x">0</real>
+      <real id="y">0</real>
+    </point>
+    <size id="size">
+      <real id="width">320</real>
+      <real id="height">31</real>
+    </size>
+    <angle id="rotation">0</angle>
+    <color id="color">
+      <real id="red">1</real>
+      <real id="green">1</real>
+      <real id="blue">1</real>
+      <real id="alpha">1</real>
+    </color>
+    <image id="image">Game Over Yellow</image>
+    <text id="tags" />
+    <boolean id="preloadArt">true</boolean>
+  </attributes>
+  <behaviors>
+    <behavior id="id291670" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Board</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id437637</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">0</real>
+        <real id="y">-500</real>
+        <index id="positionSpace">0</index>
+        <index id="layerOrder">2</index>
+      </attributes>
+    </behavior>
+    <behavior id="id644644" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Score</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id612994</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">60</real>
+        <real id="y">-445</real>
+        <index id="positionSpace">0</index>
+        <index id="layerOrder">2</index>
+      </attributes>
+    </behavior>
+    <behavior id="id502962" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Highscore Display</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id652845</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">60</real>
+        <real id="y">-489</real>
+        <index id="positionSpace">0</index>
+        <index id="layerOrder">2</index>
+      </attributes>
+    </behavior>
+    <behavior id="id309875" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Coin Count</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id170903</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">-50</real>
+        <real id="y">-550</real>
+        <index id="positionSpace">0</index>
+        <index id="layerOrder">2</index>
+      </attributes>
+    </behavior>
+    <behavior id="id846728" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Actor</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id264025</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">80</real>
+        <real id="y">-550</real>
+        <index id="positionSpace">0</index>
+        <index id="layerOrder">2</index>
+      </attributes>
+    </behavior>
+    <behavior id="id746791" class="TimerBehavior" enabled="true">
+      <attributes>
+        <text id="name">Spawn Play and Menu Button</text>
+        <text id="bundleName">Timer.behavior</text>
+        <index id="timerType">1</index>
+        <real id="interval">1</real>
+        <boolean id="runToCompletion">false</boolean>
+      </attributes>
+      <behaviors>
+        <behavior id="id832642" class="SpawnAction" enabled="true">
+          <attributes>
+            <text id="name">Spawn Actor</text>
+            <text id="bundleName">Spawn.behavior</text>
+            <text id="prototypeKey">id134686</text>
+            <angle id="direction">0</angle>
+            <index id="directionSpace">0</index>
+            <real id="x">75</real>
+            <real id="y">-280</real>
+            <index id="positionSpace">0</index>
+            <index id="layerOrder">2</index>
+          </attributes>
+        </behavior>
+        <behavior id="id443898" class="SpawnAction" enabled="true">
+          <attributes>
+            <text id="name">Spawn Actor</text>
+            <text id="bundleName">Spawn.behavior</text>
+            <text id="prototypeKey">id132054</text>
+            <angle id="direction">0</angle>
+            <index id="directionSpace">0</index>
+            <real id="x">-75</real>
+            <real id="y">-280</real>
+            <index id="positionSpace">0</index>
+            <index id="layerOrder">2</index>
+          </attributes>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id803693" class="ChangeAttributeAction" enabled="true">
+      <attributes>
+        <text id="name">Change Attribute</text>
+        <text id="bundleName">ChangeAttribute.behavior</text>
+        <text id="targetAttribute">game.attributes.id840555</text>
+        <text id="RHS">
+          <expression>
+            <reference keypath="game.attributes.id840555" />
+            <string xml:space="preserve">+</string>
+            <reference keypath="game.attributes.id823803" />
+          </expression>
+        </text>
+      </attributes>
+    </behavior>
+    <behavior id="id572149" class="SaveAttributeAction" enabled="true">
+      <attributes>
+        <text id="name">Save Attribute</text>
+        <text id="bundleName">SaveAttribute.behavior</text>
+        <text id="targetAttribute">game.attributes.id840555</text>
+        <text id="key">a</text>
+      </attributes>
+    </behavior>
+    <behavior id="id405987" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Destroy</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">1</real>
+      </attributes>
+      <conditions>
+        <condition id="id888011" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id836939</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="boolean">
+            <attributes>
+              <index id="RHS">1</index>
+            </attributes>
+          </predicate>
+        </condition>
+        <condition id="id103317" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id534400</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="number">
+            <attributes>
+              <text id="operator">=</text>
+              <real id="RHS">1</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id854557" class="DestroyAction" enabled="true">
+          <attributes>
+            <text id="name">Destroy</text>
+            <text id="bundleName">Destroy.behavior</text>
+          </attributes>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id754464" class="TimerBehavior" enabled="true">
+      <attributes>
+        <text id="name">Timer</text>
+        <text id="bundleName">Timer.behavior</text>
+        <index id="timerType">1</index>
+        <real id="interval">0.1</real>
+        <boolean id="runToCompletion">false</boolean>
+      </attributes>
+      <behaviors>
+        <behavior id="id493686" class="RuleBehavior" enabled="true">
+          <attributes>
+            <text id="name">Rule</text>
+            <text id="bundleName">Rule.behavior</text>
+            <real id="compoundConditionKind">0</real>
+          </attributes>
+          <conditions>
+            <condition id="id804742" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+              <attributes>
+                <index id="conditionType">1</index>
+                <text id="subjectAttribute">game.attributes.id815499</text>
+                <text id="name">default name</text>
+              </attributes>
+              <predicate type="number">
+                <attributes>
+                  <text id="operator">=</text>
+                  <real id="RHS">0</real>
+                </attributes>
+              </predicate>
+            </condition>
+          </conditions>
+          <behaviors>
+            <behavior id="id982168" class="PlaySoundAction" enabled="true">
+              <attributes>
+                <text id="name">Play Sound</text>
+                <text id="bundleName">PlaySound.behavior</text>
+                <sound id="soundName">GameOver</sound>
+                <boolean id="loop">false</boolean>
+                <boolean id="runToCompletion">true</boolean>
+                <boolean id="positional">false</boolean>
+                <boolean id="dopplerShift">false</boolean>
+                <real id="volume">1</real>
+                <real id="pitch">1</real>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+      </behaviors>
+    </behavior>
+  </behaviors>
+  <aspects>
+    <graphics>
+      <attributes>
+        <boolean id="visible">true</boolean>
+        <enumeration id="blendingMode">0</enumeration>
+        <enumeration id="horizontalWrap">0</enumeration>
+        <enumeration id="verticalWrap">0</enumeration>
+        <enumeration id="horizontalAnchor">0</enumeration>
+        <enumeration id="verticalAnchor">0</enumeration>
+        <boolean id="flipHorizontally">false</boolean>
+        <boolean id="flipVertically">false</boolean>
+        <integer id="tileWidth">0</integer>
+        <integer id="tileHeight">0</integer>
+      </attributes>
+    </graphics>
+    <motion>
+      <attributes>
+        <point id="linearVelocity">
+          <real id="x">0</real>
+          <real id="y">0</real>
+        </point>
+        <real id="angularVelocity">0</real>
+        <real id="maxSpeed">0</real>
+        <boolean id="applyMaxSpeed">false</boolean>
+      </attributes>
+    </motion>
+    <physics>
+      <attributes>
+        <real id="density">1</real>
+        <real id="friction">3</real>
+        <real id="restitution">1</real>
+        <boolean id="fixedRotation">false</boolean>
+        <boolean id="movable">false</boolean>
+        <enumeration id="collisionShape">0</enumeration>
+        <real id="drag">0</real>
+        <real id="angularDrag">0</real>
+      </attributes>
+    </physics>
+  </aspects>
+</actor>

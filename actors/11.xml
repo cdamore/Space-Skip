@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor id="id139041" PGFVersion="0.19" GSCVersion="0.10.5">
+  <attributes>
+    <text id="name">Cloud/Coin/Planets Spawn</text>
+    <real id="time">0</real>
+    <point id="position">
+      <real id="x">0</real>
+      <real id="y">0</real>
+    </point>
+    <size id="size">
+      <real id="width">60</real>
+      <real id="height">60</real>
+    </size>
+    <angle id="rotation">0</angle>
+    <color id="color">
+      <real id="red">1</real>
+      <real id="green">1</real>
+      <real id="blue">1</real>
+      <real id="alpha">1</real>
+    </color>
+    <image id="image" />
+    <text id="tags" />
+    <boolean id="preloadArt">true</boolean>
+  </attributes>
+  <behaviors>
+    <behavior id="id343530" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Coin</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id798538</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">160</real>
+        <real id="y">
+          <expression>
+            <string xml:space="preserve">random(</string>
+            <string xml:space="preserve">600</string>
+            <string xml:space="preserve">,</string>
+            <string xml:space="preserve">1200</string>
+            <string xml:space="preserve">)</string>
+          </expression>
+        </real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+    <behavior id="id134926" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Coin</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id798538</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">160</real>
+        <real id="y">
+          <expression>
+            <string xml:space="preserve">random(</string>
+            <string xml:space="preserve">1800</string>
+            <string xml:space="preserve">,</string>
+            <string xml:space="preserve">2400</string>
+            <string xml:space="preserve">)</string>
+          </expression>
+        </real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+    <behavior id="id626335" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Coin</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id798538</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">160</real>
+        <real id="y">
+          <expression>
+            <string xml:space="preserve">random(</string>
+            <string xml:space="preserve">3000</string>
+            <string xml:space="preserve">,</string>
+            <string xml:space="preserve">3400</string>
+            <string xml:space="preserve">)</string>
+          </expression>
+        </real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+    <behavior id="id506743" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Coin</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id798538</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">160</real>
+        <real id="y">
+          <expression>
+            <string xml:space="preserve">random(</string>
+            <string xml:space="preserve">3800</string>
+            <string xml:space="preserve">,</string>
+            <string xml:space="preserve">4600</string>
+            <string xml:space="preserve">)</string>
+          </expression>
+        </real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+    <behavior id="id485690" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Coin</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id798538</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">160</real>
+        <real id="y">
+          <expression>
+            <string xml:space="preserve">random(</string>
+            <string xml:space="preserve">4800</string>
+            <string xml:space="preserve">,</string>
+            <string xml:space="preserve">5200</string>
+            <string xml:space="preserve">)</string>
+          </expression>
+        </real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+    <behavior id="id401069" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Coin</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id798538</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">160</real>
+        <real id="y">
+          <expression>
+            <string xml:space="preserve">random(</string>
+            <string xml:space="preserve">5300</string>
+            <string xml:space="preserve">,5</string>
+            <string xml:space="preserve">5</string>
+            <string xml:space="preserve">00)</string>
+          </expression>
+        </real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+    <behavior id="id606057" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Coin</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id798538</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">160</real>
+        <real id="y">
+          <expression>
+            <string xml:space="preserve">random(</string>
+            <string xml:space="preserve">5800</string>
+            <string xml:space="preserve">,5</string>
+            <string xml:space="preserve">9</string>
+            <string xml:space="preserve">00)</string>
+          </expression>
+        </real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+    <behavior id="id166380" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Coin</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id798538</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">160</real>
+        <real id="y">
+          <expression>
+            <string xml:space="preserve">random(</string>
+            <string xml:space="preserve">61</string>
+            <string xml:space="preserve">00,</string>
+            <string xml:space="preserve">63</string>
+            <string xml:space="preserve">00)</string>
+          </expression>
+        </real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+    <behavior id="id608279" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Coin</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id798538</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">160</real>
+        <real id="y">
+          <expression>
+            <string xml:space="preserve">random(</string>
+            <string xml:space="preserve">7200</string>
+            <string xml:space="preserve">,</string>
+            <string xml:space="preserve">7400</string>
+            <string xml:space="preserve">)</string>
+          </expression>
+        </real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+    <behavior id="id201280" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Coin</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id798538</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">160</real>
+        <real id="y">8500</real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+    <behavior id="id893467" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Coin</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id798538</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">160</real>
+        <real id="y">8550</real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+    <behavior id="id785473" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Coin</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id798538</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">160</real>
+        <real id="y">8600</real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+    <behavior id="id538493" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Cloud</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id994164</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">
+          <expression>
+            <string xml:space="preserve">random(</string>
+            <string xml:space="preserve">80</string>
+            <string xml:space="preserve">, </string>
+            <string xml:space="preserve">240</string>
+            <string xml:space="preserve">)</string>
+          </expression>
+        </real>
+        <real id="y">
+          <expression>
+            <string xml:space="preserve">random(</string>
+            <string xml:space="preserve">300</string>
+            <string xml:space="preserve">,</string>
+            <string xml:space="preserve">600</string>
+            <string xml:space="preserve">)</string>
+          </expression>
+        </real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+    <behavior id="id930298" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Cloud</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id671233</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">
+          <expression>
+            <string xml:space="preserve">random(</string>
+            <string xml:space="preserve">80</string>
+            <string xml:space="preserve">, </string>
+            <string xml:space="preserve">240</string>
+            <string xml:space="preserve">)</string>
+          </expression>
+        </real>
+        <real id="y">
+          <expression>
+            <string xml:space="preserve">random(</string>
+            <string xml:space="preserve">1000</string>
+            <string xml:space="preserve">, </string>
+            <string xml:space="preserve">1200</string>
+            <string xml:space="preserve">)</string>
+          </expression>
+        </real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+    <behavior id="id495484" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Cloud</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id994164</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">
+          <expression>
+            <string xml:space="preserve">random(</string>
+            <string xml:space="preserve">80</string>
+            <string xml:space="preserve">, </string>
+            <string xml:space="preserve">240</string>
+            <string xml:space="preserve">)</string>
+          </expression>
+        </real>
+        <real id="y">
+          <expression>
+            <string xml:space="preserve">random(</string>
+            <string xml:space="preserve">1350</string>
+            <string xml:space="preserve">, </string>
+            <string xml:space="preserve">1600</string>
+            <string xml:space="preserve">)</string>
+          </expression>
+        </real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+    <behavior id="id178489" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Cloud</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id671233</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">
+          <expression>
+            <string xml:space="preserve">random(</string>
+            <string xml:space="preserve">80</string>
+            <string xml:space="preserve">, </string>
+            <string xml:space="preserve">240</string>
+            <string xml:space="preserve">)</string>
+          </expression>
+        </real>
+        <real id="y">
+          <expression>
+            <string xml:space="preserve">random(</string>
+            <string xml:space="preserve">1750</string>
+            <string xml:space="preserve">, </string>
+            <string xml:space="preserve">2000</string>
+            <string xml:space="preserve">)</string>
+          </expression>
+        </real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+    <behavior id="id560827" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Cloud</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id893339</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">
+          <expression>
+            <string xml:space="preserve">random(80, 240)</string>
+          </expression>
+        </real>
+        <real id="y">
+          <expression>
+            <string xml:space="preserve">random(</string>
+            <string xml:space="preserve">2200</string>
+            <string xml:space="preserve">, </string>
+            <string xml:space="preserve">250</string>
+            <string xml:space="preserve">0)</string>
+          </expression>
+        </real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+    <behavior id="id717881" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Cloud</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id619524</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">
+          <expression>
+            <string xml:space="preserve">random(80, 240)</string>
+          </expression>
+        </real>
+        <real id="y">
+          <expression>
+            <string xml:space="preserve">random(</string>
+            <string xml:space="preserve">28</string>
+            <string xml:space="preserve">00, </string>
+            <string xml:space="preserve">29</string>
+            <string xml:space="preserve">00)</string>
+          </expression>
+        </real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+    <behavior id="id583442" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Cloud</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id893339</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">
+          <expression>
+            <string xml:space="preserve">random(80, 240)</string>
+          </expression>
+        </real>
+        <real id="y">
+          <expression>
+            <string xml:space="preserve">random(</string>
+            <string xml:space="preserve">32</string>
+            <string xml:space="preserve">00, </string>
+            <string xml:space="preserve">34</string>
+            <string xml:space="preserve">00)</string>
+          </expression>
+        </real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+    <behavior id="id854345" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Cloud</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id619524</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">
+          <expression>
+            <string xml:space="preserve">random(80, 240)</string>
+          </expression>
+        </real>
+        <real id="y">
+          <expression>
+            <string xml:space="preserve">random(3</string>
+            <string xml:space="preserve">6</string>
+            <string xml:space="preserve">00, </string>
+            <string xml:space="preserve">40</string>
+            <string xml:space="preserve">00)</string>
+          </expression>
+        </real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+    <behavior id="id354934" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Cloud</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id259323</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">
+          <expression>
+            <string xml:space="preserve">random(80, 240)</string>
+          </expression>
+        </real>
+        <real id="y">
+          <expression>
+            <string xml:space="preserve">random(</string>
+            <string xml:space="preserve">4400</string>
+            <string xml:space="preserve">, </string>
+            <string xml:space="preserve">45</string>
+            <string xml:space="preserve">00)</string>
+          </expression>
+        </real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+    <behavior id="id844236" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Cloud</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id343492</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">
+          <expression>
+            <string xml:space="preserve">random(80, 240)</string>
+          </expression>
+        </real>
+        <real id="y">4800</real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+    <behavior id="id145328" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Cloud</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id259323</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">
+          <expression>
+            <string xml:space="preserve">random(80, 240)</string>
+          </expression>
+        </real>
+        <real id="y">
+          <expression>
+            <string xml:space="preserve">random(</string>
+            <string xml:space="preserve">5200</string>
+            <string xml:space="preserve">,</string>
+            <string xml:space="preserve">5300</string>
+            <string xml:space="preserve">)</string>
+          </expression>
+        </real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+    <behavior id="id741339" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Cloud</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id343492</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">
+          <expression>
+            <string xml:space="preserve">random(80, 240)</string>
+          </expression>
+        </real>
+        <real id="y">5500</real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+    <behavior id="id843678" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Cloud</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id395032</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">
+          <expression>
+            <string xml:space="preserve">random(80, 240)</string>
+          </expression>
+        </real>
+        <real id="y">6100</real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+    <behavior id="id260663" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Cloud</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id395032</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">
+          <expression>
+            <string xml:space="preserve">random(80, 240)</string>
+          </expression>
+        </real>
+        <real id="y">
+          <expression>
+            <string xml:space="preserve">random(</string>
+            <string xml:space="preserve">6400</string>
+            <string xml:space="preserve">, </string>
+            <string xml:space="preserve">6800</string>
+            <string xml:space="preserve">)</string>
+          </expression>
+        </real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+    <behavior id="id769133" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Cloud</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id637778</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">
+          <expression>
+            <string xml:space="preserve">random(80, 240)</string>
+          </expression>
+        </real>
+        <real id="y">7100</real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+    <behavior id="id992810" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Cloud</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id395032</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">
+          <expression>
+            <string xml:space="preserve">random(80, 240)</string>
+          </expression>
+        </real>
+        <real id="y">
+          <expression>
+            <string xml:space="preserve">random(7400, 7700)</string>
+          </expression>
+        </real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+  </behaviors>
+  <aspects>
+    <graphics>
+      <attributes>
+        <boolean id="visible">false</boolean>
+        <enumeration id="blendingMode">0</enumeration>
+        <enumeration id="horizontalWrap">0</enumeration>
+        <enumeration id="verticalWrap">0</enumeration>
+        <enumeration id="horizontalAnchor">0</enumeration>
+        <enumeration id="verticalAnchor">0</enumeration>
+        <boolean id="flipHorizontally">false</boolean>
+        <boolean id="flipVertically">false</boolean>
+        <integer id="tileWidth">0</integer>
+        <integer id="tileHeight">0</integer>
+      </attributes>
+    </graphics>
+    <motion>
+      <attributes>
+        <point id="linearVelocity">
+          <real id="x">0</real>
+          <real id="y">0</real>
+        </point>
+        <real id="angularVelocity">0</real>
+        <real id="maxSpeed">0</real>
+        <boolean id="applyMaxSpeed">false</boolean>
+      </attributes>
+    </motion>
+    <physics>
+      <attributes>
+        <real id="density">1</real>
+        <real id="friction">3</real>
+        <real id="restitution">1</real>
+        <boolean id="fixedRotation">false</boolean>
+        <boolean id="movable">false</boolean>
+        <enumeration id="collisionShape">0</enumeration>
+        <real id="drag">0</real>
+        <real id="angularDrag">0</real>
+      </attributes>
+    </physics>
+  </aspects>
+</actor>
