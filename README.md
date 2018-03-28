@@ -1,2 +1,2 @@
 # Space-Skip
-Space Skip app for iPhone and iPad
+Space Skip source files for IOS app I made
